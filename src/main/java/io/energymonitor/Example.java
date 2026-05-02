@@ -1,4 +1,4 @@
-package org.example;
+package io.energymonitor;
 
 public class Example {
     public static void main(String[] args) {

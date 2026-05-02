@@ -1,4 +1,4 @@
-package org.example;
+package io.energymonitor;
 
 import org.junit.jupiter.api.Test;
 

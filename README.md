@@ -1,6 +1,6 @@
-# project-name
+# energy-monitor
 
-A brief description of what this project does.
+Simple Command Line Interface to fetch energy prices from public api and display
 
 ## Status
 

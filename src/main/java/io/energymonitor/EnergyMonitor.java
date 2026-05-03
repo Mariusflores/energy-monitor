@@ -38,7 +38,7 @@ public class EnergyMonitor {
             EnergyPrice price = prices.get(i);
             String dateString = price.getTime_start().toLocalDateTime().format(DateTimeFormatter.ofPattern("yyyy-MM-dd:hh"));
             String key = "price:" + dateString;
-            String value = String.format("%.4f EUR/kWh", price.getEUR_per_kWh());
+            String value = String.format("%.4f NOK/kWh", price.getNOK_per_kWh());
 
             try {
                 client.set(key, value);
